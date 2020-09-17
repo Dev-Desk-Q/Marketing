@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <title>Contact Us - Dev Desk Q</title>
+</head>
+
+<body>
+    <header>
+        <h1>Dev Desk Q</h1>
+        <div class="top-nav">
+            <nav>
+                <a class="home" href="index.html">Home</a>
+                <a href="about.html">Our Team</a>
+                <a href="#">Login/Signup</a>
+                <a href="contact.html">Contact Us</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <h2>Contact Us</h2>
+                        
+            <form onsubmit="return false">
+                <div class="namePhone">
+                    <input type="text" placeholder="Enter your first name" id="firstName" size="25" />
+                    <input type="text" placeholder="Enter your last name" id="lastName" size="25"/>
+                    <input type="text" placeholder="Enter your phone number" id="phoneNumber" size="25"/>
+                </div>
+                <br>
+                <input type="email" placeholder="Enter your email address" id="email" size="40"/>
+                <br><br>
+                <div class="options">
+                    <!--TODO: Radio for Contact Type-->
+                </div>
+                <br>
+                <span>Your Message:</span>
+                <br>
+                <textarea id="message" rows="7"></textarea>
+                <br>
+                <button onclick="sendContact();">Reach Out</button>
+            </form>
+    </main>
+    <footer>
+        <div class="bottom-nav">
+            <a class="home" href="index.html">Home</a>
+            <a href="about.html">Our Team</a>
+            <a href="#">Login/Signup</a>
+            <h3>Dev Desk Q</h3>
+            <address>
+                <a href="mailto:info@devdeskq.notasite">info@devdeskq.notasite</a><br>
+                <a href="tel:+18005555555">(800)-555-DESK</a>
+            </address>
+        </div>
+        <p>&copy; 2020 Dev Desk Q. MIT License.</p>
+    </footer>
+</body>
+</html>
