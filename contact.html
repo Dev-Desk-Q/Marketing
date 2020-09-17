@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Cairo&display=swap" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
-    <title>Dev Desk Q</title>
+    <title>Contact Us - Dev Desk Q</title>
 </head>
 
 <body>
@@ -22,34 +22,27 @@
         </div>
     </header>
     <main>
-        <section class="img-text">
-            <div class="first-img-text">
-                <img src="">
-                <div class="promo-text">
-                    <h3></h3>
+        <h2>Contact Us</h2>
+                        
+            <form onsubmit="return false">
+                <div class="namePhone">
+                    <input type="text" placeholder="Enter your first name" id="firstName" size="25" />
+                    <input type="text" placeholder="Enter your last name" id="lastName" size="25"/>
+                    <input type="text" placeholder="Enter your phone number" id="phoneNumber" size="25"/>
                 </div>
-            </div>
-            <div class="second-img-text">
-                <img src="">
-                <div class="promo-text">
-                    <h3></h3>
+                <br>
+                <input type="email" placeholder="Enter your email address" id="email" size="40"/>
+                <br><br>
+                <div class="options">
+                    <!--TODO: Radio for Contact Type-->
                 </div>
-        </section>
-
-        <section class="Sign-Up">
-            <h2>Sign up for Dev Desk Q Today!</h2>
-            <p>Already have an account? Go ahead and login!</p>
-            <button>Sign Up/Login</button>
-        </section>
-
-        <section class="our-team">
-            <h2>Our Team</h2>
-            <p>Blah blah blah.. we are awesome... blah blah blah. Blah blah blah.. we are awesome... blah blah blah.
-                Blah blah blah.. we are awesome... blah blah blah. Blah blah blah.. we are awesome... blah blah blah.
-                Blah blah blah.. we are awesome... blah blah blah. Blah blah blah.. we are awesome... blah blah blah.
-                Blah blah blah.. we are awesome... blah blah blah. </p>
-            <button>Meet the Team</button>
-        </section>
+                <br>
+                <span>Your Message:</span>
+                <br>
+                <textarea id="message" rows="7"></textarea>
+                <br>
+                <button onclick="sendContact();">Reach Out</button>
+            </form>
     </main>
     <footer>
         <div class="bottom-nav">
