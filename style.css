@@ -1,5 +1,5 @@
 *{
-    background: #545250;
+    /*background: #545250;*/
     color: #cfc5bc;
     font-family: 'Cairo', sans-serif;
 }
@@ -8,6 +8,7 @@ body{
     width: 100%;
     padding: 0;
     margin: 0;
+    background: #545250;
 }
 
 h1, h2, a{
@@ -30,6 +31,7 @@ header{
     top: 0px;
     z-index: 1;
     margin-bottom: 10px;
+    background-color:#545250;;
 }
 
 h1{
@@ -85,7 +87,7 @@ main > *{
 .promo-text h3{
     font-size: 5rem;
     text-align: center;
-    background-color: unset;
+
     filter: drop-shadow(1px 1px 1px )
 }
 /*Sign Up*/
@@ -96,9 +98,7 @@ main > *{
     background-image: url(/assets/keys.png);
     background-size: cover;
 }
-.sign-up > *{
-    background-color: unset;
-}
+
 
 /*Our Team*/
 .our-team{
@@ -108,17 +108,17 @@ main > *{
     background-image: url(/assets/teams.png);
     background-size: cover;
 }
-.our-team > *{
-    background-color: unset;
-}
 
+/*Footer*/
 footer{
     display: flex;
     flex-direction: column;
     background-color:  #ff952b;
+    color: #383634
 }
 footer > *{
     background-color: unset;
+    color: #383634;
 }
 
 .contact{
@@ -129,5 +129,37 @@ footer > *{
 }
 
 .contact > *{
-    background-color: unset;
+    color: #383634;
+}
+
+.bottom-nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bottom-nav > *{
+    color: #383634;
+}
+
+address > *{
+    color: #443f3a
+}
+
+.info{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #383634;
+}
+
+.info > *{
+    color: #383634;
+    text-align: center;
+}
+
+footer p{
+    text-align: center;
+    margin: 0 auto;
 }
