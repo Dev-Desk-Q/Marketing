@@ -1,7 +1,20 @@
+/*
+    Dev Desk Q Stylesheet
+    Covers all pages in 
+
+*/
+
+
+/*General*/
+
 *{
     /*background: #545250;*/
     color: #cfc5bc;
     font-family: 'Cairo', sans-serif;
+}
+
+html{
+    height: auto;
 }
 
 body{
@@ -18,6 +31,16 @@ h1, h2, a{
 a{
     text-decoration: none;
     padding: 4px;
+}
+
+button{
+    background:#ff952b;
+    color: black;
+}
+
+button:hover{
+    background: #383634;
+    color: #cfc5bc;
 }
 
 /*Header*/
@@ -114,7 +137,7 @@ footer{
     display: flex;
     flex-direction: column;
     background-color:  #ff952b;
-    color: #383634
+    color: #383634;
 }
 footer > *{
     background-color: unset;
@@ -132,6 +155,15 @@ footer > *{
     color: #383634;
 }
 
+.contact button{
+    background: #cfc5bc;
+}
+
+.contact button:hover{
+    background: #383634;
+    color: #cfc5bc;
+}
+
 .bottom-nav{
     display: flex;
     align-items: center;
@@ -140,6 +172,11 @@ footer > *{
 
 .bottom-nav > *{
     color: #383634;
+}
+
+address{
+    display: flex;
+    flex-direction: row;
 }
 
 address > *{
@@ -157,9 +194,51 @@ address > *{
 .info > *{
     color: #383634;
     text-align: center;
+    margin: 0;
 }
 
 footer p{
     text-align: center;
     margin: 0 auto;
+}
+
+/*Contact Us Page*/
+.contact-form{
+    padding: 4rem 0;
+    align-items: center;
+    height: 41.26em;
+    justify-content: space-evenly;
+}
+.contact-form form > *{
+    display: flex;
+    margin: 0 auto;
+    color: #443f3a;
+}
+
+.contact-form span{
+    color: #cfc5bc
+}
+
+.namePhone > *{
+    margin: 1rem;
+    color: #443f3a;
+}
+
+#reason{
+    width: 40%;
+}
+
+#message{
+    width: 100%;
+}
+
+/*About Page*/
+.team-gallery{
+    padding: 4rem;
+}
+
+.bio-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }

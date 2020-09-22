@@ -22,8 +22,8 @@
         </div>
     </header>
     <main>
-        <h2>Contact Us</h2>
-                        
+        <section class="contact-form">
+        <h2>Contact Us</h2>            
             <form onsubmit="return false">
                 <div class="namePhone">
                     <input type="text" placeholder="Enter your first name" id="firstName" size="25" />
@@ -33,27 +33,30 @@
                 <br>
                 <input type="email" placeholder="Enter your email address" id="email" size="40"/>
                 <br><br>
-                <input type="text" placeholder="Enter your reason for reaching out"/>
+                <input type="text" placeholder="Enter your reason for reaching out" id="reason"/>
                 <br>
                 <span>Your Message:</span>
                 <br>
                 <textarea id="message" rows="7"></textarea>
                 <br>
                 <button>Reach Out</button>
-            </form>
+        </form>
+    </section>
     </main>
     <footer>
         <div class="bottom-nav">
             <a class="home" href="index.html">Home</a>
             <a href="about.html">Our Team</a>
             <a href="#">Login/Signup</a>
-            <h3>Dev Desk Q</h3>
-            <address>
-                <a href="mailto:info@devdeskq.notasite">info@devdeskq.notasite</a><br>
-                <a href="tel:+18005555555">(800)-555-DESK</a>
-            </address>
         </div>
-        <p>&copy; 2020 Dev Desk Q. MIT License.</p>
+            <div class ="info">
+                <h3>Dev Desk Q</h3>
+                <address>
+                    <a href="mailto:info@devdeskq.notasite">info@devdeskq.notasite</a><br>
+                    <a href="tel:+18005555555">(800)-555-DESK</a>
+                </address>
+            </div>
+            <p>&copy; 2020 Dev Desk Q. MIT License.</p>
     </footer>
 </body>
 </html>
