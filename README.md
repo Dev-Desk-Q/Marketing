@@ -2,7 +2,7 @@
 
 These are the marketing pages for Dev Desk Q. There are 3 pages with mostly unified styling on both and a shared header/footer:
 
-###[The Home Page](https://dev-desk-q.netlify.app/index.html)
+[The Home Page](https://dev-desk-q.netlify.app/index.html)
 - Contains banner of sorts at the top containing two image and two text sections, a link to login/sign-up, and a link "meet the team".
 
 [The About (Our-Team) Page](https://dev-desk-q.netlify.app/about.html)
